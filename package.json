@@ -1,0 +1,42 @@
+{
+  "name": "happyhunters",
+  "version": "1.0.0",
+  "description": "Website for recruiters and job seekers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mind-ashish/happyHunters.git"
+  },
+  "keywords": [
+    "Recruitment",
+    "portal",
+    "Job",
+    "search"
+  ],
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mind-ashish/happyHunters/issues"
+  },
+  "homepage": "https://github.com/mind-ashish/happyHunters#readme",
+  "dependencies": {
+    "del": "^6.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify-es": "^2.0.0",
+    "morgan": "^1.10.0",
+    "node-sass-middleware": "^0.11.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
