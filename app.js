@@ -14,7 +14,7 @@ app.use(morgan("combined",{stream:logger.stream.write}));
 const view_helper=require('./config/view-helpers');
 view_helper.pathSetter(app);
 
-const expressLayouts=require('express-ejs-layouts');
+//const expressLayouts=require('express-ejs-layouts');
 
 const con=require('./config/sql_connection');
 
@@ -34,9 +34,9 @@ app.use(express.static(env.asset_path));
 
 
 
-app.use(expressLayouts);
-app.set('layout extractStyles', true);
-app.set('layout extractScripts', true);
+//app.use(expressLayouts);
+//app.set('layout extractStyles', true);
+//app.set('layout extractScripts', true);
 
 app.set('view engine','ejs');
 app.set('views', './views');

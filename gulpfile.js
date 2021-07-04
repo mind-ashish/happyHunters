@@ -1,6 +1,6 @@
 const gulp=require('gulp');
 
-const sass=require('gulp-sass');  //sass to css
+const sass=require('gulp-sass')(require('node-sass'));  //sass to css
 const cssnano=require('gulp-cssnano'); //minify css
 const rev=require('gulp-rev'); //add manifest
 
