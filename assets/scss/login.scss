@@ -42,24 +42,10 @@ body{
     }
 
 }
-#fb-login,#fb-signup{
-    background-color:#4267b2 ;
-    color: white;
-    i{
-        margin-right: 5px;
-    }
-}
-#google-login,#google-signup{
-    background-color: rgb(247, 242, 242);
-    color: black;
-    img{
-        height:100%;
-        width:20%;
-    }
-}
-#login-button,#sign-up-button,#forget-password-button, #change-password-button, #next-button{
+
+#login-button,#sign-up-button {
     width: 30%;
-    background-color:#0455f8ea ;
+    background-color:#4e9afc;
     color: white;
 }
 .text-align-right{

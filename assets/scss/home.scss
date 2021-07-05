@@ -9,6 +9,7 @@ body{
     }
     #tagline{
         height:auto;
+        min-height: 13vh;
         margin-top: 20px;
         margin-bottom: 30px;
         font-weight: 300;
@@ -31,6 +32,9 @@ body{
             color: white;
             text-align: center;
         }
+    }
+    .margintop20{
+        margin-top: 20px;
     }
 
 }
