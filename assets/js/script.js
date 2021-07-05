@@ -8,6 +8,8 @@ var myApp=angular
                 
                 $scope.previousJobsByRecruiter=[];
                 $scope.applicants=[];
+                $scope.colleges=[];
+                $scope.jobs={};
         $scope.submitForm = function() {
             $scope.job.RecruiterId=document.getElementById("RecruiterId").value;
         
@@ -58,5 +60,42 @@ var myApp=angular
 		});
         
     }
+    $scope.getColleges=function(){
+        
+        
+        
+        var url="/api/v1/colleges";
+        $http.get(url).then(function(value) {
+            $scope.colleges=value.data.colleges;
+        }, function(reason) {
+            // 
+		});
+        
+    }
+    $scope.getJobs=function(){
+        
+        
+        
+        var url="/api/v1/jobs";
+        $http.get(url).then(function(value) {
+            $scope.jobs=value.data.jobs;
+        }, function(reason) {
+            // 
+		});
+        
+    }
+    $scope.applyJob = function(data) {
+        data.ApplicantId=document.getElementById("applicantId").value;
+    
+    $http.post("/api/v1/jobs/apply", data).then(function(value) {
+        alert(value.data.message);
+    }, function(reason) {
+        
+        alert("Some error occured: "+reason);
+    });
+
+}
+
+
 
  });

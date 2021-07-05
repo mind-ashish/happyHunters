@@ -1,0 +1,126 @@
+body{
+    background-color: #f7f8fa;
+    a {
+        cursor: pointer!important;
+        color: black!important;
+    }
+    strong{
+        font-size: 1.2rem;
+        color: black;
+        font-weight: 300;
+        a{
+            color: blue!important;
+        }
+    }
+    .bgcolor{
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        margin-bottom: 20px;;
+    }
+    .bgcolorApplicants{
+        width:80%;
+   background-color: #e3e9f8;
+   padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;;
+    }
+    .color-blue{
+        color:blue!important;
+    }
+    
+
+    #header{
+        height: auto;
+        min-height: 15vh;
+        padding-top: 15px; 
+        a{
+            font-size: 1.3rem!important;
+            font-weight: 300!important;
+            color: black!important;
+        }
+    }
+    #main-content{
+        margin-top: 10px;
+        .text-align{
+            text-align: center;
+            padding-top: 15px;
+        }
+        .input-style{
+            input, button{
+                &:focus{
+                    outline: none;
+                }
+            }
+            input{
+                height: auto;
+                min-height:100px;
+                width: 80%;
+                text-align: center;
+            } 
+        
+        }
+
+        
+    }
+    .apply-button {
+        width: 150px;
+        background-color:#4e9afc;
+        color: white;
+    }
+    
+}
+
+
+
+.input-search{
+	width:100%;
+	height:40px;
+	outline:3px solid #f8bb32;
+	border:1px grey;
+	padding-left:10px;
+	
+
+}
+#search-bar{
+	padding-top:10px;
+}
+.remove-padding{
+	padding:1px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+	
+	
+	#search-bar{
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	
+	.remove-padding{
+		margin-left:20px !important;
+		margin-right:20px !important;
+	}
+	
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	
+	#search-bar{
+		width:90vw;
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	.remove-padding{
+		margin-left:20px !important;
+		margin-right:20px !important;
+	}
+}
