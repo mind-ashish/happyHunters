@@ -51,9 +51,9 @@ module.exports.getJobsByRecruiter = function(req, res){
 }
 module.exports.create = function(req, res){
 
-
+    //console.log(req.body);
     let data=req.body;
-    console.log(data);
+   // console.log(data);
     let insertQuery = 'insert into Jobs(RecruiterId,JobTitle,JobDesc) values(?,?,?);';    
     let query = mysql.format(insertQuery,[data.RecruiterId,data.JobTitle,data.JobDesc]);
     

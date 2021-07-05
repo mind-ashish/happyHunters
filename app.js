@@ -20,7 +20,10 @@ const pool=require('./config/sql_connection');
 
 const sassMiddleware=require('node-sass-middleware');
 
-app.use(express.urlencoded({extended:false}));
+
+
+app.use(express.urlencoded({extended:true}));
+app.use(express.json())
 
 const path=require('path');
 if(env.name=='development'){ //for scss to css in dev environment using sass middleware instead of gulp 
