@@ -16,7 +16,7 @@ view_helper.pathSetter(app);
 
 //const expressLayouts=require('express-ejs-layouts');
 
-const con=require('./config/sql_connection');
+const pool=require('./config/sql_connection');
 
 const sassMiddleware=require('node-sass-middleware');
 const path=require('path');
@@ -42,6 +42,8 @@ app.set('view engine','ejs');
 app.set('views', './views');
 
 app.use('/',require('./routes')); //this load router instance exported elsewhere, from this path. 
+// app.use(app.router);
+// routes.initialize(app);
 
 app.listen(port, function(err){
     if(err){
