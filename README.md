@@ -1,7 +1,7 @@
 # Happy Hunters
 
  ## Link:
- >Will update here in an hour.  
+ >Deployment is pending, shall update the link here in 2 hrs.  
 
 ## Db scripts:
 Check dbDump folder in project
