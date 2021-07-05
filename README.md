@@ -3,6 +3,9 @@
  ## Link:
  >Will update here in an hour.  
 
+## Db scripts:
+Check dbDump folder in project
+
  ## About: 
  This is a portal where recruiter can post jobs and job seekers can view and apply on jobs.
 
