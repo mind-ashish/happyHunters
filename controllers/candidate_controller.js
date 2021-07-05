@@ -1,3 +1,5 @@
+const mysql=require('mysql');
+const pool=require('../config/sql_connection');
 module.exports.signup=function(req,res){
     
     return res.render('./candidateSignup.ejs',{   //path is wrt views
