@@ -19,6 +19,9 @@ view_helper.pathSetter(app);
 const pool=require('./config/sql_connection');
 
 const sassMiddleware=require('node-sass-middleware');
+
+app.use(express.urlencoded({extended:false}));
+
 const path=require('path');
 if(env.name=='development'){ //for scss to css in dev environment using sass middleware instead of gulp 
     app.use(sassMiddleware({
