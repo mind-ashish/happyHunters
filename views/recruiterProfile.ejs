@@ -49,20 +49,20 @@
         </div>
         <div class="row" id="main-content">
             <div class="col-sm-12">
-                <form action="/api/v1/jobs/createJob" method="Post">
+                <<form name="addJob" ng-submit="submitForm()">>
                     <div class="row">
                         <div class="col-12 text-align input-style">
-                            <input type="text" id="JobTitle" name="JobTitle" placeholder="Job Title" required>
+                            <input type="text" id="JobTitle" name="JobTitle" placeholder="Job Title" required ng-model="job.JobTitle">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 text-align input-style">
-                            <input type="text" id="JobDesc"  name="JobDesc" placeholder="Job Description" required>
+                            <input type="text" id="JobDesc"  name="JobDesc" placeholder="Job Description" required ng-model="job.JobDesc">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 text-align input-style">
-                            <input type="hidden" id="RecruiterId" name="RecruiterId" value="" >
+                            <input type="hidden" id="RecruiterId" name="RecruiterId" value="<%=recruiter.RecruiterId=>" ng-model="job.RecruiterId">
                         </div>
                     </div>
                     <div class="row">
