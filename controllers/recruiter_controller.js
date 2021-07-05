@@ -55,11 +55,10 @@ module.exports.login=function(req,res){
     
     return res.render('./recruiterLogin.ejs',{   //path is wrt views
     });
-   //
+   
 }
 module.exports.createSession=function(req,res){
-    return res.render('./recruiterProfile.ejs',{   //path is wrt views
-    });
+    
 //
 }
 module.exports.destroySession=function(req,res){
