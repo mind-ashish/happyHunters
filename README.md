@@ -37,6 +37,13 @@ winston js/morgan js
 
 **Database:** My sql
 
+## To run:
+gulp conversion
+gulp build
+NODE_ENV=production nodemon app.js 
+
+
+
 
 
 
