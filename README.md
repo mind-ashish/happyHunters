@@ -40,6 +40,8 @@ winston js/morgan js
 
 **Database:** My sql
 
+**Environment variable In** ~/.bash_profile (not uploaded here)
+
 ## To run:
 gulp conversion
 
