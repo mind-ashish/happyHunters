@@ -102,7 +102,7 @@ module.exports.profile=function(req,res){
         }
         if(response.length>0){
             return res.render('candidateProfile.ejs',{
-                recruiter:response[0]
+                candidate:response[0]
             })
         }else{
             return res.redirect('/candidate/login');
