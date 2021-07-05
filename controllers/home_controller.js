@@ -1,5 +1,5 @@
 module.exports.home=function(req,res){
     
-    return res.render('./home.ejs',{   //path is wrt views
+     return res.render('./home.ejs',{   //path is wrt views
     });
 }
