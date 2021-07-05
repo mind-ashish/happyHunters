@@ -1,7 +1,7 @@
 # Happy Hunters
 
  ## Link:
- >Deployment is pending, shall update the link here in 2 hrs.  
+ >http://100.25.156.45:8000/ 
 
 ## Db scripts:
 Check dbDump folder in project
