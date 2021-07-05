@@ -6,12 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Hunters</title>
     <link rel="shortcut icon" href=" <%= path('./images/favicon.png')%> ">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+   
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/eb17531673.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href= " <%= path('../css/home.css')%> " >
 </head>
 <body>
-    Home page
-    <a href="/recruiter/login">Recruiter</a>
-    <a href="/candidate/login">Candidate</a>
-<script src=" <%= path('../js/script.js')%> "></script>
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-12">
+               <h3> <i class="fab fa-hire-a-helper height-threerem"></i>appy Hunters</h3>
+            </div>
+        </div>
+        <div class="row" id="tagline">
+            <div class="col-sm-12 ">
+                <h2>Matching great developers with world-class companies</h2>
+            </div>
+        </div>
+       
+       
+        <div class="row" id="main-content">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Happy Hunters for Enterprises</h5>
+                  <p class="card-text">Happy Hunters lets you engage or source top developers with hackathons, while also enabling you to assess, interview and upskill them with ease. </p>
+                  <a href="/recruiter/login" class="btn btn-primary">Hire now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Happy Hunters for Developers</h5>
+                  <p class="card-text">Happy Hunters lets you showcase your coding skills, appear for interviews and find your next dream job easily with over 500+ companies. Find a job now.
+                 </p>
+                  <a href="/candidate/login" class="btn btn-primary">Apply now</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+    </div>
+    
+    
+     <!-- Bootstrap: jQuery and Bootstrap Bundle (includes Popper) -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!-- <script src=" <%= path('../js/script.js')%> "></script> -->
 </body>
 </html>
