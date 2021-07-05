@@ -4,6 +4,7 @@ const env=require('./config/environment');
 const morgan=require('morgan');
 const logger=require('./config/winston');
 
+const cookieParser= require('cookie-parser');
 
 const app=express();
 const port=8000;
@@ -23,7 +24,8 @@ const sassMiddleware=require('node-sass-middleware');
 
 
 app.use(express.urlencoded({extended:true}));
-app.use(express.json())
+app.use(express.json());
+app.use(cookieParser());
 
 const path=require('path');
 if(env.name=='development'){ //for scss to css in dev environment using sass middleware instead of gulp 

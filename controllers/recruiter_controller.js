@@ -2,16 +2,17 @@ const mysql=require('mysql');
 const pool=require('../config/sql_connection');
 
 module.exports.signup=function(req,res){
-    
+    if(req.cookies.RecruiterId){
+        res.redirect('/recruiter/profile');
+    }
     return res.render('./recruiterSignup.ejs',{   //path is wrt views
    });
 }
 module.exports.create=function(req,res){
     
-    //create recruiter
-    //console.log(req.body);
+    
     let data=req.body;
-   // console.log(data);
+   
    let selectQuery='select * from Recruiters where Mail=?;';
     let query1=mysql.format(selectQuery,[data.email]);
     pool.query(query1,(err, response) => {
@@ -45,27 +46,75 @@ module.exports.create=function(req,res){
         
 
     });
-    
-   
-
-    
+       
   
 }
 module.exports.login=function(req,res){
-    
+    if(req.cookies.RecruiterId){
+        res.redirect('/recruiter/profile');
+    }
     return res.render('./recruiterLogin.ejs',{   //path is wrt views
     });
    
 }
 module.exports.createSession=function(req,res){
-    
-//
+    let data=req.body;
+   
+   let selectQuery='select * from Recruiters where Mail=?;';
+    let query1=mysql.format(selectQuery,[data.email]);
+    pool.query(query1,(err, response) => {
+        if(err) {
+            console.error(err);
+            return res.render('./errorPage.ejs',{
+                message:"Some error in db connection has occured."
+            })
+        }
+        // rows fetch
+        if(response.length==0){
+            return res.render('./errorPage.ejs',{
+                message:"User not found."
+            })
+        }else{
+            if(response[0].Pwd!=req.body.password){
+                return res.render('./errorPage.ejs',{
+                    message:"Invalid password."
+                });
+            }
+                res.cookie('RecruiterId',response[0].RecruiterId);
+                return res.redirect('/recruiter/profile');         
+        }
+        
+
+    });
+
 }
 module.exports.destroySession=function(req,res){
-    
-    //
+    res.cookie('RecruiterId',"");
+    res.redirect('/recruiter/login');
 }
 module.exports.profile=function(req,res){
-    return res.render('./recruiterProfile.ejs');
-    //
+    if(req.cookies.RecruiterId){
+        let selectQuery='select * from Recruiters where RecruiterId=?;';
+    let query1=mysql.format(selectQuery,[req.cookies.RecruiterId]);
+    pool.query(query1,(err, response) => {
+        if(err) {
+            console.error(err);
+            return res.render('./errorPage.ejs',{
+                message:"Some error in db connection has occured."
+            })
+        }
+        if(response.length>0){
+            return res.render('recruiterProfile.ejs',{
+                recruiter:response[0]
+            })
+        }else{
+            return res.redirect('/recruiter/login');
+        }
+        
+
+    });
+    }else{
+        return res.redirect('/recruiter/login');
+    }
+    
 }
