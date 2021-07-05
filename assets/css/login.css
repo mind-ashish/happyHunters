@@ -1,0 +1,92 @@
+body {
+  background-color: #444444; }
+
+.row-style {
+  height: auto;
+  margin-top: 15vh; }
+
+.col-style-login {
+  height: auto;
+  min-height: 60vh;
+  background-color: white;
+  margin: auto; }
+
+.col-style-signup {
+  height: auto;
+  min-height: 70vh;
+  background-color: white;
+  margin: auto; }
+
+.text-align {
+  text-align: center;
+  padding-top: 15px; }
+  .text-align #fav-league {
+    height: 2rem;
+    width: 80%; }
+    .text-align #fav-league:focus {
+      outline: none; }
+
+.input-style input:focus, .input-style button:focus {
+  outline: none; }
+
+.input-style input {
+  width: 80%; }
+
+.input-style button {
+  width: 90%; }
+
+#fb-login, #fb-signup {
+  background-color: #4267b2;
+  color: white; }
+  #fb-login i, #fb-signup i {
+    margin-right: 5px; }
+
+#google-login, #google-signup {
+  background-color: #f7f2f2;
+  color: black; }
+  #google-login img, #google-signup img {
+    height: 100%;
+    width: 20%; }
+
+#login-button, #sign-up-button, #forget-password-button, #change-password-button, #next-button {
+  width: 30%;
+  background-color: #0455f8ea;
+  color: white; }
+
+.text-align-right {
+  text-align: right;
+  padding-top: 10px; }
+
+.box-shadow {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(245, 245, 245, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(245, 245, 245, 0.75);
+  box-shadow: 1px 1px 5px 0px rgba(245, 245, 245, 0.75); }
+
+@media (max-width: 768px) {
+  body {
+    background-color: white; }
+  .row-style {
+    height: auto;
+    margin-top: 5vh; }
+  .col-style-login {
+    height: 60vh;
+    background-color: white;
+    margin: auto; }
+  .col-style-signup {
+    height: 70vh;
+    background-color: white;
+    margin: auto; }
+  .box-shadow {
+    box-shadow: none; } }
+
+.col-style-scroll-list {
+  max-height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  margin: auto; }
+
+.text-align-scroll-list {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px; }

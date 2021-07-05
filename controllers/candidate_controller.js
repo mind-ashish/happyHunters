@@ -6,17 +6,18 @@ module.exports.signup=function(req,res){
 module.exports.create=function(req,res){
     
     //create candidate
-    return res.redirect('./login.ejs');
+    
   
 }
 module.exports.login=function(req,res){
-    return res.render('./login.ejs',{   //path is wrt views
+    return res.render('./candidateLogin.ejs',{   //path is wrt views
     });
     
    //
 }
 module.exports.createSession=function(req,res){
-    
+    return res.render('./candidateProfile.ejs',{   //path is wrt views
+    });
 //
 }
 module.exports.destroySession=function(req,res){
