@@ -1,13 +1,39 @@
 body{
     background-color: #f7f8fa;
     #header{
-        height: 15vh;
+        height: auto;
+        min-height: 15vh;
         padding-top: 15px;
-
+        
     }
     #main-content{
-       
+        margin-top: 10px;
+        .text-align{
+            text-align: center;
+            padding-top: 15px;
+        }
+        .input-style{
+            input, button{
+                &:focus{
+                    outline: none;
+                }
+            }
+            input{
+                height: auto;
+                min-height:100px;
+                width: 80%;
+                text-align: center;
+            }
+            
         
+        }
+
+        
+    }
+    #submit-button {
+        width: 150px;
+        background-color:#4e9afc;
+        color: white;
     }
     
 

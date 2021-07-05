@@ -1,4 +1,6 @@
 {
+  "css/candidateProfile.css": "css/candidateProfile-d41d8cd98f.css",
   "css/home.css": "css/home-1db9ef028a.css",
-  "css/login.css": "css/login-d3a26e7918.css"
+  "css/login.css": "css/login-d3a26e7918.css",
+  "css/recruiterProfile.css": "css/recruiterProfile-010a35c2b3.css"
 }

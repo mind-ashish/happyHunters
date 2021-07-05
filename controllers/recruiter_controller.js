@@ -25,6 +25,6 @@ module.exports.destroySession=function(req,res){
     //
 }
 module.exports.profile=function(req,res){
-    return res.redirect('./recruiterProfile.ejs');
+    return res.render('./recruiterProfile.ejs');
     //
 }
