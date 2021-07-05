@@ -678,3 +678,13 @@
   message: 'server is up and running at port 8000',
   timestamp: '2021-07-05T21:58:10.290Z'
 }
+{
+  level: 'info',
+  message: 'server is up and running at port 8000',
+  timestamp: '2021-07-05T21:59:59.669Z'
+}
+{
+  level: 'info',
+  message: 'server is up and running at port 8000',
+  timestamp: '2021-07-05T22:00:43.631Z'
+}

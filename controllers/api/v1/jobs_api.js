@@ -91,7 +91,7 @@ module.exports.apply=function(req, res){
         // rows fetch
         console.log(data);
         return res.json(200, {
-            message: "Applied to job created successfully",
+            message: "Applied to job successfully",
             response: response
         })
     });
