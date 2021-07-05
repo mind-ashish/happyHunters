@@ -42,6 +42,8 @@ winston js/morgan js
 
 **Environment variable In** ~/.bash_profile (not uploaded here)
 
+**Deployed on:** AWS
+
 ## To run:
 gulp conversion
 
