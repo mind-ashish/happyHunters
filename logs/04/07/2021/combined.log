@@ -1,0 +1,30 @@
+{
+  level: 'info',
+  message: 'server is up and running at port 8000',
+  timestamp: '2021-07-04T10:48:40.734Z'
+}
+{
+  level: 'info',
+  message: 'succesfully created connection with db',
+  timestamp: '2021-07-04T10:48:40.752Z'
+}
+{
+  level: 'info',
+  message: 'succesfully created connection with db',
+  timestamp: '2021-07-04T10:50:20.392Z'
+}
+{
+  level: 'info',
+  message: 'succesfully created connection with db',
+  timestamp: '2021-07-04T10:50:23.193Z'
+}
+{
+  level: 'info',
+  message: 'server is up and running at port 8000',
+  timestamp: '2021-07-04T10:50:38.365Z'
+}
+{
+  level: 'info',
+  message: 'succesfully created connection with db',
+  timestamp: '2021-07-04T10:50:38.390Z'
+}

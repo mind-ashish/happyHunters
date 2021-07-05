@@ -1,0 +1,384 @@
+{
+  error: Error: Cannot find module 'mysql'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js:1:13)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'mysql'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module 'mysql'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module 'mysql'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js:1:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Sun Jul 04 2021 16:14:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4919,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 37044224,
+      heapTotal: 15974400,
+      heapUsed: 10012952,
+      external: 1660307,
+      arrayBuffers: 374106
+    }
+  },
+  os: {
+    loadavg: [ 2.8720703125, 2.76708984375, 2.57666015625 ],
+    uptime: 13322
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/config/sql_connection.js',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-04T10:44:35.282Z'
+}
+{
+  error: ReferenceError: expressLayouts is not defined
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: expressLayouts is not defined\n' +
+    'ReferenceError: expressLayouts is not defined\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: expressLayouts is not defined\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Sun Jul 04 2021 16:20:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5035,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46280704,
+      heapTotal: 19562496,
+      heapUsed: 11504736,
+      external: 1448146,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.83447265625, 2.93359375, 2.708984375 ],
+    uptime: 13667
+  },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-07-04T10:50:20.368Z'
+}
+{
+  error: ReferenceError: expressLayouts is not defined
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: expressLayouts is not defined\n' +
+    'ReferenceError: expressLayouts is not defined\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: expressLayouts is not defined\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:37:9)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Sun Jul 04 2021 16:20:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5045,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46772224,
+      heapTotal: 19300352,
+      heapUsed: 11429736,
+      external: 1448146,
+      arrayBuffers: 25766
+    }
+  },
+  os: { loadavg: [ 3.328125, 3.0341796875, 2.74560546875 ], uptime: 13670 },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-07-04T10:50:23.170Z'
+}

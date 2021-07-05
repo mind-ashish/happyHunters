@@ -1,0 +1,2431 @@
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  exception: true,
+  date: 'Mon Jul 05 2021 11:16:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2154,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47878144,
+      heapTotal: 19562496,
+      heapUsed: 11532016,
+      external: 1443085,
+      arrayBuffers: 33958
+    }
+  },
+  os: {
+    loadavg: [ 2.462890625, 2.63623046875, 2.73681640625 ],
+    uptime: 4052
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 458,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T05:46:40.096Z'
+}
+{
+  error: Error: 'app.router' is deprecated!
+  Please see the 3.x to 4.x migration guide for details on how to update your app.
+      at Function.get (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/application.js:124:13)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:45:13)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: "uncaughtException: 'app.router' is deprecated!\n" +
+    'Please see the 3.x to 4.x migration guide for details on how to update your app.\n' +
+    "Error: 'app.router' is deprecated!\n" +
+    'Please see the 3.x to 4.x migration guide for details on how to update your app.\n' +
+    '    at Function.get (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/application.js:124:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:45:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: "Error: 'app.router' is deprecated!\n" +
+    'Please see the 3.x to 4.x migration guide for details on how to update your app.\n' +
+    '    at Function.get (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/application.js:124:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js:45:13)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Mon Jul 05 2021 11:19:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2200,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46522368,
+      heapTotal: 19562496,
+      heapUsed: 11268520,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 1.81591796875, 2.2294921875, 2.541015625 ],
+    uptime: 4246
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/application.js',
+      function: 'Function.get',
+      line: 124,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T05:49:54.302Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  exception: true,
+  date: 'Mon Jul 05 2021 11:22:29 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2226,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47439872,
+      heapTotal: 28213248,
+      heapUsed: 11390240,
+      external: 1443085,
+      arrayBuffers: 33958
+    }
+  },
+  os: {
+    loadavg: [ 1.822265625, 2.07177734375, 2.4208984375 ],
+    uptime: 4401
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 458,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T05:52:29.578Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  exception: true,
+  date: 'Mon Jul 05 2021 11:23:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2275,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47009792,
+      heapTotal: 19562496,
+      heapUsed: 11458352,
+      external: 1443085,
+      arrayBuffers: 33958
+    }
+  },
+  os: {
+    loadavg: [ 2.146484375, 2.12353515625, 2.42138671875 ],
+    uptime: 4439
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 458,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T05:53:07.665Z'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js:458:13)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js:5:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js:5:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)',
+  exception: true,
+  date: 'Mon Jul 05 2021 11:31:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2424,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46854144,
+      heapTotal: 19038208,
+      heapUsed: 11459736,
+      external: 1443085,
+      arrayBuffers: 33958
+    }
+  },
+  os: {
+    loadavg: [ 4.0087890625, 2.91455078125, 2.64111328125 ],
+    uptime: 4936
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/node_modules/express/lib/router/index.js',
+      function: 'Function.use',
+      line: 458,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/v1/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/api/index.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T06:01:24.261Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:12:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10478,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47554560,
+      heapTotal: 19824640,
+      heapUsed: 11353824,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.82763671875, 2.2373046875, 2.18701171875 ],
+    uptime: 32616
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:42:47.311Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:12:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10493,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47443968,
+      heapTotal: 19562496,
+      heapUsed: 11422056,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 3.72216796875, 2.43212890625, 2.255859375 ],
+    uptime: 32625
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:42:56.151Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:13:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10507,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46227456,
+      heapTotal: 19824640,
+      heapUsed: 11463600,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.58544921875, 2.3154296875, 2.2216796875 ],
+    uptime: 32679
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:43:50.512Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:20:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10537,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47583232,
+      heapTotal: 19824640,
+      heapUsed: 11473264,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.064453125, 2.05810546875, 2.10791015625 ],
+    uptime: 33050
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:50:01.640Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:22:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11163,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47833088,
+      heapTotal: 19824640,
+      heapUsed: 11480416,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 6.10400390625, 3.9970703125, 2.88037109375 ],
+    uptime: 33193
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:52:24.160Z'
+}
+{
+  error: Error: Cannot find module '../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/recruiter.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:23:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11190,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 48480256,
+      heapTotal: 19300352,
+      heapUsed: 11413192,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 3.5927734375, 3.65673828125, 2.8212890625 ],
+    uptime: 33248
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/recruiter_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:53:19.682Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:23:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11199,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 48078848,
+      heapTotal: 19824640,
+      heapUsed: 11418784,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: { loadavg: [ 2.953125, 3.50439453125, 2.791015625 ], uptime: 33273 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:53:44.609Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:23:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11216,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 46927872,
+      heapTotal: 19824640,
+      heapUsed: 11487512,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.732421875, 3.43798828125, 2.775390625 ],
+    uptime: 33282
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:53:53.827Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:24:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11228,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47226880,
+      heapTotal: 19300352,
+      heapUsed: 11484656,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: { loadavg: [ 2.2890625, 3.2392578125, 2.7314453125 ], uptime: 33321 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:54:32.227Z'
+}
+{
+  error: Error: Cannot find module '../../../config/sql_connection'
+  Require stack:
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js
+  - /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:835:27)
+      at Module.require (internal/modules/cjs/loader.js:1012:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)
+      at Module._compile (internal/modules/cjs/loader.js:1123:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+      at Module.load (internal/modules/cjs/loader.js:972:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:872:14)
+      at Module.require (internal/modules/cjs/loader.js:1012:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  stack: "Error: Cannot find module '../../../config/sql_connection'\n" +
+    'Require stack:\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/candidate.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/routes/index.js\n' +
+    '- /Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:952:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:835:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js:2:12)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1123:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:972:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:872:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1012:19)',
+  exception: true,
+  date: 'Mon Jul 05 2021 19:24:45 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11262,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters',
+    execPath: '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+    version: 'v13.13.0',
+    argv: [
+      '/Users/aashishchoudhary/.nvm/versions/node/v13.13.0/bin/node',
+      '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/app.js'
+    ],
+    memoryUsage: {
+      rss: 47763456,
+      heapTotal: 28213248,
+      heapUsed: 11487280,
+      external: 1434893,
+      arrayBuffers: 25766
+    }
+  },
+  os: {
+    loadavg: [ 2.25048828125, 3.1982421875, 2.72265625 ],
+    uptime: 33334
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 952,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 835,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/aashishchoudhary/Desktop/Squareboat/happyHunters/controllers/candidate_controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1123,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1143,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 972,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 872,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1012,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-07-05T13:54:45.398Z'
+}
