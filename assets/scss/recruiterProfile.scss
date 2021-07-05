@@ -1,5 +1,38 @@
 body{
     background-color: #f7f8fa;
+    a {
+        cursor: pointer!important;
+        color: black!important;
+    }
+    strong{
+        font-size: 1.2rem;
+        color: black;
+        font-weight: 300;
+        a{
+            color: blue!important;
+        }
+    }
+    .bgcolor{
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        margin-bottom: 20px;;
+    }
+    .bgcolorApplicants{
+        width:80%;
+   background-color: #e3e9f8;
+   padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;;
+    }
+    .color-blue{
+        color:blue!important;
+    }
+    
+
     #header{
         height: auto;
         min-height: 15vh;

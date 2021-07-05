@@ -1,1 +1,0 @@
-var myApp=angular.module("myModule",[]).controller("myController",(function(l,o){alert("hello")}));

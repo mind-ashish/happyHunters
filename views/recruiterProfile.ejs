@@ -23,6 +23,7 @@
     <title>Recruiter Profile</title>
 </head>
 <body ng-app="myModule" ng-controller="myController">
+    
     <div class="container">
         <div class="row" id="header">
             <div class="col-sm-12">
@@ -33,11 +34,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Create job <span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                          <a class="nav-link" ng-click=createJob()>Create job <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Previous jobs</a>
+                          <a class="nav-link" ng-click=previousJob()>Previous jobs</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="/recruiter/logout">Logout</a>
@@ -48,8 +49,8 @@
             </div>
         </div>
         <div class="row" id="main-content">
-            <div class="col-sm-12">
-                <<form name="addJob" ng-submit="submitForm()">>
+            <div class="col-sm-12" ng-show="display1">
+                <form name="addJob" ng-submit="submitForm()">
                     <div class="row">
                         <div class="col-12 text-align input-style">
                             <input type="text" id="JobTitle" name="JobTitle" placeholder="Job Title" required ng-model="job.JobTitle">
@@ -62,7 +63,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 text-align input-style">
-                            <input type="hidden" id="RecruiterId" name="RecruiterId" value="<%=recruiter.RecruiterId=>" ng-model="job.RecruiterId">
+                            <input type="hidden" id="RecruiterId" name="RecruiterId" value="<%=recruiter.RecruiterId%>" >
                         </div>
                     </div>
                     <div class="row">
@@ -72,6 +73,27 @@
                     </div>
                     
                 </form>
+            </div>
+            
+            <div class="col-sm-12" ng-show="display2">
+                <div ng-repeat="data in previousJobsByRecruiter" class="bgcolor">
+					<strong>Job Title: </strong>{{data.JobTitle}} </br>
+					<strong>Description:</strong> {{ data.JobDesc }}  </br>
+
+					<strong><a class="color-blue" ng-click="checkApplicants(data)" >Check applicants</a></strong> </br>
+				</div>
+            </div>
+            <div class="col-sm-12" ng-show="display3">
+                <div ng-repeat="x in applicants" class="bgcolor">
+                    <strong><span style="font-size:1.5rem">{{ x.FirstName }} {{x.LastName }} </span></strong> </br>
+                   <strong>Mail:</strong> {{ x.Mail }}  </br>
+                   <strong>Phone:</strong> {{ x.Phone }}  </br>
+                   <strong>Education:</strong> {{ x.Education }}  </br>
+                   <strong>College:</strong> {{ x.College }}  </br>
+                   <strong>Current org:</strong> {{ x.CurrentOrg }}  </br>
+                   <strong>Experience:</strong> {{ x.Experience }}  </br>
+                   <strong>Key skills:</strong> {{ x.KeySkills }}  </br>
+               </div>
             </div>
         </div>
     </div>
