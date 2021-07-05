@@ -39,7 +39,9 @@ winston js/morgan js
 
 ## To run:
 gulp conversion
+
 gulp build
+
 NODE_ENV=production nodemon app.js 
 
 
